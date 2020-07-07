@@ -17,3 +17,11 @@ on full train set and predict test set once. This approach takes more time becau
 
 ![alt text](https://github.com/apalle1/Stacking-Framework/blob/master/Variant%20B.PNG)
 
+# References
+
+https://mlwave.com/kaggle-ensembling-guide/
+
+https://github.com/kaz-Anova/StackNet
+
+https://www.kaggle.com/mmueller/stacking-starter
+
