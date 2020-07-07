@@ -9,9 +9,9 @@ metafeatures and average predictions if you have several metaregressors. Only th
 is different between Variant A & B. That is, in both cases the creation of train set predictions stays the same.
 
 
-* Variant A: In each fold we predict test set, so after completion of all folds we need to find mean (mode) of all temporary test set
+* **Variant A**: In each fold we predict test set, so after completion of all folds we need to find mean (mode) of all temporary test set
 predictions made in each fold.
-* Variant B: We do not predict test set during cross-validation cycle. After completion of all folds we perform additional step: fit model
+* **Variant B**: We do not predict test set during cross-validation cycle. After completion of all folds we perform additional step: fit model
 on full train set and predict test set once. This approach takes more time because we need to perform one additional fitting.
 
 ![alt text](https://github.com/apalle1/Stacking-Framework/blob/master/Variant%20A.PNG)
