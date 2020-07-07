@@ -25,3 +25,5 @@ https://github.com/kaz-Anova/StackNet
 
 https://www.kaggle.com/mmueller/stacking-starter
 
+https://www.kaggle.com/c/santander-customer-transaction-prediction/discussion/80809
+
