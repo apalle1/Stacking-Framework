@@ -13,3 +13,8 @@ is different between Variant A & B. That is, in both cases the creation of train
 predictions made in each fold.
 * Variant B: We do not predict test set during cross-validation cycle. After completion of all folds we perform additional step: fit model
 on full train set and predict test set once. This approach takes more time because we need to perform one additional fitting.
+
+![alt text](https://github.com/apalle1/Stacking-Framework/blob/master/Variant%20A.PNG)
+
+![alt text](https://github.com/apalle1/Stacking-Framework/blob/master/Variant%20B.PNG)
+
